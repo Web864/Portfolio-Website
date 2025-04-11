@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://kit.fontawesome.com/87bf723192.js" crossorigin="anonymous"></script>
+    <title>Portfolio Website</title>
+    <link rel="icon" href="./images/title.jpg" type="images/jpg">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+                <nav>
+                    <img src="./images/logo.jpg" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#Header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#project">Projects</a></li>
+                        <li><a href="#contact">contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+        <div class="header-text">
+            
+            <h1>I'm <span> Rabia Naz</span></h1>
+                <p>A passionate beginner in web development and IT.
+                    <br><br><span>Welcome to my portfolio! </span> <br> Here, you’ll find some of the projects I’ve built using HTML, CSS, and js.</p>
+        </div>
+    </div> 
+    
+    
+    <div id="about">
+        <div class="container">
+            <h1>About Me</h1>
+            <p>a passionate and motivated beginner in web development with a background in Computer Science. I’ve gained hands-on experience through my internship at Technotch, where I worked with HTML, CSS and js to build and manage dynamic web applications. I also have 2.5 years of experience as an IT Coordinator, which helped me develop strong skills in network management, software applications, and troubleshooting. I'm excited to keep learning and growing in the world of technology and web development.  I like solving problems and enjoy bringing ideas to life through code</p>
+            <div class="tab-title">
+                <p class="tab-links active-link" onclick="opentab('skills')">Education</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span> Matric  </span>&nbsp;&nbsp;&nbsp;&nbsp;2016 - 2018 <br>Bise Faisalabad </li><br><br>
+                    <li><span>Fsc   </span> &nbsp;&nbsp;&nbsp;&nbsp;2018 - 2020 <br>Bise Faisalabad </li><br><br>
+                    <li><span>ADA   </span>&nbsp;&nbsp;&nbsp;&nbsp; 2020 - 2022 <br>Government College University Faisalabad </li><br><br>
+                    <li><span>Bs Computer   </span>&nbsp;&nbsp;&nbsp;&nbsp; 2022 - 2024 <br>Government college University Faisalabad</li><br><br>
+
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><p>School Name: The Logic Schools System Khurrianwala</p><Br><span> IT Incharge </span> &nbsp;&nbsp;&nbsp;&nbsp; 16/12/2022 - 02/03/2024</li><br>
+                    <li><span>accounts</span>&nbsp;&nbsp;&nbsp;&nbsp;02/03/2024 to 26/07/2024</li><br>
+                    <li><span>Vice Principal + Admission Officer </span> &nbsp;&nbsp;&nbsp;&nbsp;26/07/2024 to Present</li><br><br>
+                    <li><p>Company Name: TechNotch</p><br><span>Internship </span> &nbsp;&nbsp;&nbsp;&nbsp; Duration 3 Months</li><br>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="project">
+        <div class="container">
+            <h1 class="Sub-title">My Work</h1>
+            <div class="work-list">
+                
+                <div class="work">
+                    <img src="./images/My Work.png">
+                    <div class="layer">
+                        <h3>Dyanamic Table</h3>
+                        <p>This interactive dynamic table is built using HTML and CSS, allowing users to display and organize tabular data efficiently. <br> The table includes alternating row colors for better readability and a dropdown menu to adjust the number of displayed rows.<br> It demonstrates my ability to implement user-friendly and well-structured data presentation in web design.</p>
+                        <a href="https://github.com/Web864/Data-Table.git"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div><br><br>
+                <div class="work">
+                    <img src="./images/My work 2.png">
+                    <div class="layer">
+                        <h3>Prolex Landing Page</h3>
+                        <p>A sleek and modern landing page designed for a smartwatch brand, showcasing its features, battery life, and specifications.<br> The page has a clean UI with an engaging hero section, dynamic typography, and well-structured content.</p>
+                        <a href="https://github.com/Web864/Oprolex-.git"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div><br><br>
+                <div class="work">
+                    <img src="./images/My Work 4.png">
+                    <div class="layer">
+                        <h3>Prolex Smartwatch Features Page</h3>
+                        <p> A dedicated page highlighting the smartwatch's battery life and GPS running mode. It uses high-quality visuals, bold typography,<br> and well-structured content to convey essential information effectively.</p>
+                        <a href="https://github.com/Web864/Oprolex-.git"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div><br><br>
+                <div class="work">
+                    <img src="./images/My Work 3.png">
+                    <div class="layer">
+                        <h3>Business Planing Website</h3>
+                        <p>A professional business planning website template featuring multiple sections for services, gallery, and business strategies.<br> This site is designed for startups, consultants, or business professionals looking for an informative and elegant website.</p>
+                        <a href="https://github.com/Web864/Travel-Blog.git"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div><br><br>
+                <div class="work">
+                    <img src="./images/My Work 5.png">
+                    <div class="layer">
+                        <h3>Travel Destination Website</h3>
+                        <p>This project showcases a visually appealing travel destination website designed using HTML and CSS. <br>It features a modern layout with a navigation bar, high-quality images of top travel spots, and well-structured sections for easy exploration.<br> The design emphasizes user engagement with a clean  interface, making it an ideal platform for travelers looking for inspiration.</p>
+                        <a href="https://github.com/Web864/Travel-Blog.git"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div><br><br>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+             <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tilte">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>xyz@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>012345677</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-square-facebook"></i></a> 
+                        <a href=""><i class="fa-brands fa-square-whatsapp"></i></a> 
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a> 
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a> 
+                    </div>
+                    <a href="./images/Rabia Naz CV.pdf" class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-Right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Emil" required>
+                        <textarea name="Message" rows="6" placeholder="Your Massage"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+             </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Rabia Naz.</p>
+        </div>
+    </div>
+
+    <script>
+        
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+    
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-250px";
+        }
+    </script>
+       <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzqKoP_glniHhjyJQ-CGDbdeabwFTXRhcLgOwFB7MHi61EW4BHw3gVy_va9TxCdKxd6QQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            
+            }
+            console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
