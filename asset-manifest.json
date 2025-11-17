@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Ecommerce-with-React-js/static/css/main.896f6e51.css",
+    "main.js": "/Ecommerce-with-React-js/static/js/main.be363090.js",
+    "static/media/Oprolex.png": "/Ecommerce-with-React-js/static/media/Oprolex.fe52e3131af5f9470af7.png",
+    "static/media/E-commerce..png": "/Ecommerce-with-React-js/static/media/E-commerce..fdb48a4471162cfeefeb.png",
+    "static/media/E-commerce -2.png": "/Ecommerce-with-React-js/static/media/E-commerce -2.a0b4aa7eee5b9a274c88.png",
+    "static/media/Home.jpeg": "/Ecommerce-with-React-js/static/media/Home.7ea8de8f1aa138ba8670.jpeg",
+    "static/media/Oprolex-1.png": "/Ecommerce-with-React-js/static/media/Oprolex-1.e366584e2b483febf1f7.png",
+    "static/media/E-commerce -1.png": "/Ecommerce-with-React-js/static/media/E-commerce -1.b5d48640e9a62f83451a.png",
+    "static/media/E-commerce -3.png": "/Ecommerce-with-React-js/static/media/E-commerce -3.4738f77773491b223d18.png",
+    "static/media/Calculator-1.png": "/Ecommerce-with-React-js/static/media/Calculator-1.cf3bfb30653911c1faf6.png",
+    "static/media/Calculator.png": "/Ecommerce-with-React-js/static/media/Calculator.f1b59398b251d9c578c9.png",
+    "static/media/Oprolex-2.png": "/Ecommerce-with-React-js/static/media/Oprolex-2.82b42eae2456ccb1a5a1.png",
+    "static/media/Expence-Tracker.png": "/Ecommerce-with-React-js/static/media/Expence-Tracker.a86e40dbef258fbecfa8.png",
+    "static/media/Quize.png": "/Ecommerce-with-React-js/static/media/Quize.4826306268446c9795c1.png",
+    "index.html": "/Ecommerce-with-React-js/index.html",
+    "main.896f6e51.css.map": "/Ecommerce-with-React-js/static/css/main.896f6e51.css.map",
+    "main.be363090.js.map": "/Ecommerce-with-React-js/static/js/main.be363090.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.896f6e51.css",
+    "static/js/main.be363090.js"
+  ]
+}
