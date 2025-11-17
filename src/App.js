@@ -8,12 +8,16 @@ import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
 import { ThemeProvider } from './context/ThemeContext';
 import { Helmet } from 'react-helmet-async';
-
+import {useState} from 'react';
 
 export default function App() {
+      const [count,setCount] = useState(10)
+
 return (
     <>
 
+    
+          
 <ThemeProvider>
 <Router>
 <Helmet>

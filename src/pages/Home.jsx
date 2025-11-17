@@ -2,25 +2,35 @@ import React from "react";
 import "../App.css";
 import Projects from "./Projects"; 
 import HomeImg from "../Images/Home.jpeg";
+import { Typewriter } from "react-simple-typewriter";
+
 
 
 function Home() {
   return (
+
     <div className="home">
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
           <h1 className="hero-title">Hi, I’m Rabia 👩‍💻</h1>
           <p className="hero-subtitle">
-            A passionate <span>Web Developer</span> building modern, responsive, and creative websites.
-          </p>
+           A passionate  <br />
+          <Typewriter
+  words={["Web Developer", "building modern", "responsive", "creative websites"]}
+  loop={true}
+  cursor
+  cursorStyle="|"
+  typeSpeed={70}
+  deleteSpeed={50}
+  delaySpeed={1000}
+/></p>
 
           {/* Button scrolls to Projects section */}
           <a href="#projects" className="btn">
             View My Work
           </a>
         </div>
-
         {/* Hero Image */}
         <div className="hero-image">
           <img
